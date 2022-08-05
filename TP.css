@@ -1,37 +1,48 @@
 
 .bloc{color: black;
-height: 150px;
-width: 50%;
+height: 300px;
+width: 45%;
 background-color: yellow;
-margin: 20px;
+margin: 5px;
 box-sizing: border-box;
-font-size: 50px;
-border: 1px solid black;
+font-size: large;
+font-weight: bold;
+border: 5px solid black;
 writing-mode: vertical-lr;
+writing-mode: 1px;
+border-radius: 10px;
+display: flex;
+
+
 
 }
-body{background-color: chartreuse;}
+body{background-color: red;
+margin: 0;}
+
     
 
 p{
-    padding-left: 200px;
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+
 }
 
-.container{
-    height: auto;
+#Container{
+    height: 100%;
     width: 100%;
-    background: green;
+    background:red;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-.first{
-    display: flex;}
-    
+    justify-content: center;
+    flex-wrap: wrap; 
 
-.second{
-    display: flex;
+    
 }
+
+    
 h5{
     text-align: center;
+    color: white;
 }
