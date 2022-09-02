@@ -1,0 +1,120 @@
+
+.bloc{color:white;
+height: 200px;
+width: 45%;
+background-color:black;
+margin: 5px;
+font-size: large;
+font-weight: bold;
+border: 5px solid black;
+writing-mode: vertical-lr;
+writing-mode: 1px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.nouveaucouleur{
+    background-color:#fff;
+    color: blue;
+}
+
+@media sceen and (max-width:150px)
+{
+    #container{
+        width: 10%;
+        height: 10%;
+    
+    }
+}
+
+body{   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.1)),url(na.jpg);
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+#Container{
+    height: 50%;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    background-size: cover;
+    
+
+    
+}
+.bouton{
+    
+    height: 25px;
+    width: 100%;
+  
+    
+}
+.bouton button{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-style: outset;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.1)),url('IMG_0191.jpg');
+    font: bold 20px arial,sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+   
+h5{
+    text-align: center;
+    color:white;
+}
+.bout button{
+    border-style: outset;
+    border-radius: 20px;
+}
+
+form{
+    margin-top:74%;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:none;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin: 2px 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+h4{
+    color: white;
+}
+.col{
+    color: red;
+}
